@@ -1,0 +1,49 @@
+# Data files
+*.csv
+*.CSV
+*.rds
+*.RDS
+*.sav
+*.sas7bdat
+
+# GIS data and downloaded archives (several .shp files exceed GitHub's 100 MB limit)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.shp.xml
+*.zip
+*.lock
+*.md5
+Downloads/
+TIGERFiles/
+France/France_IRIS/
+
+# JCHS Rental Deserts template (third-party code and maps; kept locally only)
+Code template/
+Data template/
+Maps + Scatterplots template/
+
+# Generated city maps (kept locally only)
+image/
+image_1/
+
+# R session files
+.Rhistory
+.RData
+.RDataTmp*
+.Rproj.user/
+.Ruserdata
+
+# Keys and secrets
+.Renviron
+.env
+*.key
+*.pem
+*.p12
+*secret*
+*credentials*
+*token*
